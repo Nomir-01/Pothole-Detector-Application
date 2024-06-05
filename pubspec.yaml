@@ -1,0 +1,52 @@
+name: new_final_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^4.0.0
+  flutter_polyline_points: ^1.0.0
+  google_maps_flutter: ^2.0.2
+  cupertino_icons: ^1.0.2
+  geolocator: ^9.0.2
+  geocoding: ^2.0.4
+  http:
+  uuid: ^3.0.5
+  google_place: ^0.4.7
+  flutter_spinkit: ^5.1.0
+  flutter_launcher_icons: ^0.11.0
+  firebase_core: ^2.4.0
+  cloud_firestore: ^4.3.0
+  google_maps_utils: ^1.5.0+0
+  flutter_email_sender: ^5.2.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image.jpeg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.16
+
+flutter_native_splash:
+  color: '#ffffff'
+  image: assets/splash.png
+
+flutter:
+  assets:
+    - assets/pothole.png
+    - assets/maps.png
+    - assets/splash.png
+  uses-material-design: true
